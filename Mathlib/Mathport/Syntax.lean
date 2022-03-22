@@ -148,7 +148,6 @@ end Tactic
 
 namespace Tactic
 
-syntax (name := propagateTags) "propagate_tags " tacticSeq : tactic
 syntax (name := fapply) "fapply " term : tactic
 syntax (name := eapply) "eapply " term : tactic
 syntax (name := applyWith) "apply " term " with " term : tactic
